@@ -6,8 +6,10 @@
 import { copyFileSync, existsSync, mkdirSync, readFileSync, readdirSync, statSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { buildRadar, parseSnapshot, validateBoard } from './lib/econometrics.ts';
+import './dashboard/model.js';
 import { buildDossier } from './vendor/makefun-board.ts';
+
+const { buildRadar, parseSnapshot, validateBoard } = (globalThis as Record<string, any>).TokenRadarModel;
 
 const ROOT = fileURLToPath(new URL('.', import.meta.url));
 const DOSSIER_TEXT_MAX = 65_536;
