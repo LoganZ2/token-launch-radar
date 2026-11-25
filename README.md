@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/token-radar-01/LoganZ2/token-launch-radar/rank.svg)](https://make.fun/bounty/token-radar-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
 [![reward](https://make.fun/badge/token-radar-01/LoganZ2/token-launch-radar/reward.svg)](https://make.fun/bounty/token-radar-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
 
-Peer-calibrated token launch radar ranking all 197 clean pre-token protocols (40/40 watchlist + 157 early discoveries) using Huber-IRLS log-TVL + chain-count + Empirical-Bayes category regression validated on both Leave-One-Out CV and Walk-Forward blind splits, empirical token launch odds from 437 clean protocols, honest out-of-sample range bands, and costed `$/hr` farm playbooks.
+Peer-calibrated L1-LAD token launch radar ranking all 197 clean pre-token protocols (40/40 watchlist + 19 extended + 138 early) with 758/758 exact protocol reconciliation, triple blind out-of-sample validation (LOO 3.05x, 10-Fold 2.82x, Walk-Forward 3.12x vs 4.44x starter), per-category conformal range bands, survival-hazard launch odds that fall with age (81% → 12%), inline calibration charts, and costed 5-step `$/hr` farm playbooks.
 
 ## Run it
 

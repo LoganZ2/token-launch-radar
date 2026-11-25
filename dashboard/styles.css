@@ -98,6 +98,91 @@ html, body {
 .chip strong { color: #ffffff; font-weight: 700; }
 .chip.ok { border-color: rgba(45, 212, 191, 0.4); color: var(--teal); }
 
+/* Cover Self-Check Banner */
+.selfcheck-bar {
+  margin-top: 7px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 5px 10px;
+  background: rgba(45, 212, 191, 0.07);
+  border: 1px solid rgba(45, 212, 191, 0.32);
+  border-radius: 7px;
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--ink-2);
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.sc-item { display: inline-flex; align-items: center; gap: 4px; }
+.sc-ok { color: var(--teal); font-weight: 800; }
+
+/* Dual Inline SVG Calibration Charts */
+.charts-row {
+  margin-top: 9px;
+  display: grid;
+  grid-template-columns: 1.35fr 1fr;
+  gap: 9px;
+}
+
+.chart-card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 8px 11px;
+}
+
+.chart-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 4px;
+}
+
+.chart-title {
+  font-family: var(--mono);
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  color: var(--teal);
+}
+
+.chart-sub {
+  font-size: 10.5px;
+  color: var(--muted);
+}
+
+.partition-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.part-cell {
+  background: var(--bg);
+  border: 1px solid var(--line-soft);
+  border-radius: 6px;
+  padding: 6px 8px;
+}
+
+.part-n {
+  font-family: var(--mono);
+  font-size: 16px;
+  font-weight: 800;
+  color: #fff;
+}
+
+.part-l {
+  font-size: 10px;
+  color: var(--muted);
+  margin-top: 1px;
+}
+
 /* Integrity & Validation Strip */
 .integrity-strip {
   margin-top: 10px;
